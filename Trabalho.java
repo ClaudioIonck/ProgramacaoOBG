@@ -30,7 +30,7 @@ public class Trabalho {
 
     }
     public static void rotacionar_90_graus(int[][] a,int[][] b){
-        int z=2;
+        int z=1;
         for(int i=0;i<a.length;i++){
             for(int j=0; j<a[i].length ;j++){
                 b[i][j]=a[j][z];
@@ -40,9 +40,9 @@ public class Trabalho {
     }
 
     public static void rotacionar_180_graus(int[][] a,int[][] b){
-        int z=2;
+        int z=1;
         for(int i=0;i<a.length;i++){
-            int u=2;
+            int u=1;
             for(int j=0; j<a[i].length ;j++){
                 b[i][j]=a[z][u];
                 u--;
@@ -53,7 +53,7 @@ public class Trabalho {
 
     public static void rotacionar_270_graus(int [][] a,int[][] b){
         for(int i=0;i<a.length;i++){
-            for(int j=0,u=2; j<a[i].length; j++,u--){
+            for(int j=0,u=1; j<a[i].length; j++,u--){
                 b[i][j]=a[u][i];
             }
         }
@@ -61,7 +61,7 @@ public class Trabalho {
     public static void mostrar(int[][] a){
         for(int i=0;i<a.length;i++){
             for(int j=0;j<a[i].length ;j++){
-                System.out.println();
+                System.out.print(a[i][j]);
             }
             System.out.println();
         }

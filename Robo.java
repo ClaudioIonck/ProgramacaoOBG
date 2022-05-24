@@ -65,10 +65,6 @@ public class Robo {
             System.out.println("Foto tirada");
         }else{
             System.out.println("Robo sem bateria, recarregue-o");
-
-
-
-
         }
     }
 
@@ -93,8 +89,4 @@ public class Robo {
             System.out.println("Bateria carregada");
         }
     }
-
-
-
-
 }

@@ -1,3 +1,5 @@
+// Com entrada de dados...
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

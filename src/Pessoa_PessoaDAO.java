@@ -1,6 +1,6 @@
 import java.util.*;
 import java.util.HashMap;
-public class PessoaSemEntrada {
+public class Pessoa_PessoaDAO {
     public static void main(String[] args) {
         HashMap<Integer,String> pessoa = new HashMap<>();
         pessoa.put(1, "Cláudio");
@@ -32,12 +32,6 @@ public class PessoaSemEntrada {
         for(Map.Entry<Integer, String> entry : pessoa.entrySet()){
             System.out.println("Numero de pessoas: "+entry.getKey()+" Nome: "+entry.getValue());
         }
-
-
-
-
-
-
 
     }
 }

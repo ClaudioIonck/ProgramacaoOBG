@@ -1,3 +1,5 @@
+// Com entrada de dados...
+
 public class Pessoa {
     private String nome;
     private int codigo;

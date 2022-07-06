@@ -14,8 +14,6 @@ public class Alunos {
         double nota1, nota2, media;
         String materia;
 
-
-
         do {
 
             nome = JOptionPane.showInputDialog(null, "Informe o nome do aluno ou aperte <Enter> com o campo em branco para encerrar o programa: ");
@@ -38,13 +36,10 @@ public class Alunos {
 
             }
 
-
-
         }while(!nome.equals(""));
 
         for(int i = 0; i < Alunos.size(); i++){
             JOptionPane.showMessageDialog(null, "Aluno: " + Alunos.get(i) + "\nPrimeira nota: " + Nota1.get(i)+ "\nSegunda nota: "+Nota2.get(i)+ "\nMateria: " + Materia.get(i)+ "\n" + "\nMédia: "+Media.get(i));
         }
-
     }
 }
